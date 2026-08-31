@@ -1,9 +1,9 @@
 ## Hi, I'm Francesca 👋
 
-Computer Engineering student at Concordia University, focused on hardware, embedded systems, and FPGA design with an focus toward space and aerospace applications.
+I am a Computer Engineering student at Concordia University and I enjoy working on hardware, embedded systems, and FPGA design with a focus toward space and aerospace applications.
 
 ### 🚀 What I'm Currently building
-Leading design of a **GSE (Ground Support Equipment) health monitoring board** for Space Concordia's Liquid Rocketry Division (Project ASTR). The board handles two jobs:
+I am designing a **GSE (Ground Support Equipment) health monitoring board** for Space Concordia's Liquid Rocketry Division (Project ASTR, which is short for Astraeus, the Greek Titan god of dusk, stars, and planets!). The board handles two jobs:
 - **CAN FD ↔ Ethernet bridge** — bridges the rocket's internal CAN FD network to GSE computers over Ethernet
 - **Panel/board health monitoring** — power supply health, ambient temp/humidity inside a sealed IP66 enclosure, breaker trip status, valve energization status, and E-stop/safety relay status
 

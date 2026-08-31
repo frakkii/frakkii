@@ -1,8 +1,17 @@
-- 👋 Hi, I’m Francesca!
-- 👀 I’m interested in coding, designing circuits and understanding how computers work from the core
-- 🌱 I’m currently learning C++, Java and VHDL
+## Hi, I'm Francesca 👋
 
-<!---
-frakkii/frakkii is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Computer Engineering student at Concordia University, focused on hardware, embedded systems, and FPGA design with an focus toward space and aerospace applications.
+
+### 🚀 What I'm Currently building
+Leading design of a **GSE (Ground Support Equipment) health monitoring board** for Space Concordia's Liquid Rocketry Division (Project ASTR). The board handles two jobs:
+- **CAN FD ↔ Ethernet bridge** — bridges the rocket's internal CAN FD network to GSE computers over Ethernet
+- **Panel/board health monitoring** — power supply health, ambient temp/humidity inside a sealed IP66 enclosure, breaker trip status, valve energization status, and E-stop/safety relay status
+
+**Core architecture:**
+- MCU: STM32H723VE
+- Ethernet: LAN8720A PHY over RMII (internal MAC + lwIP)
+- CAN transceiver: ATA6563
+- Power: 120VAC input (generator-fed, isolated from panel supplies by design) via Mean Well MPM-05-3.3, custom Altium symbol/footprint built from scratch
+
+### 🛠️ Skills & tools
+`VHDL` `C/C++` `Altium Designer` `LTspice` `STM32` `CAN/CAN FD` `Ethernet/RMII` `Git`
